@@ -6,7 +6,7 @@
 //Hide Gold Piles Smaller Than (<) X
 ItemDisplay[GOLD<1000 CLVL<40]:
 ItemDisplay[GOLD<3000 (CLVL>39 AND CLVL<=69)]:
-ItemDisplay[GOLD<5 CLVL>69]:
+ItemDisplay[GOLD<0 CLVL>69]:
 //Health & Mana Potions
 ItemDisplay[rvl]: %PURPLE%BIGJOOB %WHITE%70%
 ItemDisplay[rvs]: %PURPLE%LILJOOB %WHITE%35%
@@ -4247,7 +4247,7 @@ ItemDisplay[CL2 !ETH NMAG SK154>2]: %DGREEN%%NAME% %ORANGE%+3 War Cry %YELLOW%[%
 ItemDisplay[CL2 !ETH NMAG SK133>2]: %DGREEN%%NAME% %ORANGE%+3 E-Throw %YELLOW%[%SOCKETS%]
 ItemDisplay[CL2 !ETH NMAG SK149>2]: %DGREEN%%NAME% %ORANGE%+3 Battle Orders %YELLOW%[%SOCKETS%]
 //Remove the two // in the line under this text to see magic barb helms
-//ItemDisplay[CL2 !ETH MAG ILVL>59]: %NAME%
+ItemDisplay[CL2 !ETH MAG ILVL>59]: %NAME%
 ItemDisplay[CL2 !UNI !SET (CLSK4>1 AND SK150>2)]: %NAME% %ORANGE%+2 Barb +3 War Cry %RED%[%SOCKETS%]
 ItemDisplay[CL2 !UNI !SET (TABSK34>2 AND SK150>2)]: %NAME% %ORANGE%+3 Warcries +3 War Cry %PURPLE%[%SOCKETS%]
 ItemDisplay[CL2 !UNI !SET (TABSK34>2 AND SK150=2)]: %NAME% %ORANGE%+3 Warcries +2 War Cry %RED%[%SOCKETS%]
